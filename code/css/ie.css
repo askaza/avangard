@@ -1,0 +1,19 @@
+/* zoomin */
+.clearfix,
+.columns,
+.menu_main,
+.clients-list,
+.header__inner {
+	*zoom:1;
+}
+.menu_main {
+    margin-top: 80px;
+}
+.menu_main ul li a,
+.menu_main ul li span,
+.clients-list__item,
+.menu_main ul li {
+    display: inline;
+    zoom:1;
+}
+
