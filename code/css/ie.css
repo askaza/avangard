@@ -12,8 +12,20 @@
 .menu_main ul li a,
 .menu_main ul li span,
 .clients-list__item,
-.menu_main ul li {
+.menu_main ul li,
+.client-showcase img {
     display: inline;
     zoom:1;
 }
 
+.client-showcase {
+    display: block;
+}
+
+.client-showcase img {
+    z-index: expression(runtimeStyle.zIndex = 1,this == ((172/2)-parseInt(offsetHeight)/2) <0 ? style.marginTop="0" : style.marginTop=(172/2)-(parseInt(offsetHeight)/2) +'px');
+}
+
+.client-single .client-showcase-box img {
+    z-index: expression(runtimeStyle.zIndex = 1,this == ((138/2)-parseInt(offsetHeight)/2) <0 ? style.marginTop="0" : style.marginTop=(138/2)-(parseInt(offsetHeight)/2) +'px');
+}

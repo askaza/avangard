@@ -67,17 +67,20 @@ p {
     line-height: 24px;
     margin-bottom: 19px;
 }
-
-h1, h2, h3, h4, h5, h6 {
-
+h1 {
+    color: #4C4D4F;
+    font-family: 'Calibri','calibri_reg','Tahoma';
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    text-transform: uppercase;
 }
 
 h2 {
-
-}
-
-h2 ~ p {
-
+    color: #E11B22;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -88,12 +91,33 @@ h3 {
 }
 
 h4 {
-
+    color: #4C4D4F;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    text-transform: none;
 }
+h4 {
+    color: #4C4D4F;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    text-transform: none;
+}
+
+h6 {
+    color: #4C4D4F;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 12px;
+    text-transform: none;
+}
+
 
 .content p {
     padding-left: 20px;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
 }
 
 .content ul {
@@ -184,7 +208,12 @@ h4 {
     background-position:  -159px 0 ;
 }
 .ico_practic_tourism {
-    background-position:  -196px 0 ;
+    background-position:  -186px 0 ;
+}
+.ico_loupe {
+    background-position:  -214px 0 ;
+    height: 13px;
+    width: 13px;
 }
 /* clear */
 
