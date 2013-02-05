@@ -529,6 +529,16 @@ ul.lang-inline a:hover {
     margin-bottom: 15px;
     position: relative;
 }
+.news__title a {
+	color: #4C4D4F;
+    font-size: 18px;
+    line-height: 20px;
+	text-decoration: none;	
+}
+.news-list .news-single .news__title {
+	font-size: 18px;
+	line-height: 20px;
+}
 .news__content {
     overflow: hidden;
     position: relative;
